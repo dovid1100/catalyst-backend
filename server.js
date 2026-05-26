@@ -23,7 +23,7 @@ let lastScanTime = null;
 let scanLog = [];
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
-const MODEL = "claude-opus-4-5-20251001";
+const MODEL = "claude-opus-4-5-20251101";
 
 // ── Helpers ───────────────────────────────────────────────────────
 function todayStr() { return new Date().toISOString().split("T")[0]; }
